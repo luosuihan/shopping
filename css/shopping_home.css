@@ -107,7 +107,7 @@
     height: 35px;
     line-height: 35px;
 
-    background: url("../imgs/img/top_1.gif")no-repeat;
+    background: url("../images/img/top_1.gif")no-repeat;
 }
 .navigation ul{
     list-style: none;
@@ -130,7 +130,7 @@
 .navigation .usernav{
     width: 100%;
     height: 35px;
-    background: url("../imgs/img/top_2.gif") repeat-x;
+    background: url("../images/img/top_2.gif") repeat-x;
 }
 .foot {
     height: 130px;
