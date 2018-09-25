@@ -175,6 +175,25 @@
     width: 45px;
     height: 19px;
 }
+/*首页内容部分*/
+.centenleft{
+
+}
+.userinfo{
+    width: 200px;
+    height: 116px;
+    background: url("../images/img/la_4.gif")no-repeat;
+    position: relative;
+}
+.userinfo .sn{
+    text-align: center;
+    color: white;
+    padding-top: 3px;
+}
+.userinfo .ul{
+    margin-top: 20px;
+
+}
 .foot {
     height: 130px;
     width: 100%;
