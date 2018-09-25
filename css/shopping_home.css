@@ -108,7 +108,7 @@
     height: 35px;
     line-height: 35px;
 
-    background: url("../imgs/img/top_1.gif")no-repeat;
+    background: url("../images/img/top_1.gif")no-repeat;
 }
 .navigation ul{
     list-style: none;
@@ -131,12 +131,12 @@
 .navigation .usernav{
     width: 100%;
     height: 35px;
-    background: url("../imgs/img/top_2.gif") repeat-x;
+    background: url("../images/img/top_2.gif") repeat-x;
 }
 .shopping{
     width: 310px;
     height: 35px;
-    background: url("../imgs/img/d3.jpg")no-repeat;
+    background: url("../images/img/d3.jpg")no-repeat;
 
 }
 .shopping .spanq0{
@@ -170,7 +170,7 @@
     border: 0px;
 }
 .usernav .bt{
-    background: url("../imgs/img/search_submit.jpg")no-repeat;
+    background: url("../images/img/search_submit.jpg")no-repeat;
     border: 0px;
     width: 45px;
     height: 19px;
