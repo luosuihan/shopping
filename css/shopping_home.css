@@ -4,6 +4,10 @@
     font-family: "Arabic Typesetting";
 }
 
+/*清除浮动*/
+.clear {
+    clear: both;
+}
 
 .wp {
     width: 980px;
@@ -78,174 +82,260 @@
     text-decoration: none;
     color: #939393;
 }
-.notice img{
+
+.notice img {
     padding-left: 100px;
 }
-.notice marquee{
-    height:43px;
-    width:185px;
+
+.notice marquee {
+    height: 43px;
+    width: 185px;
     padding-left: 10px;
     overflow: hidden;
 }
-.notice a{
+
+.notice a {
     text-decoration: none;
     color: #785717;
     font-size: 10px;
 }
+
 /*内容部分*/
 .centralsection {
     height: 670px;
     width: 100%;
 }
+
 /*内容部分 --- 导航栏*/
-.navigation{
+.navigation {
     margin-top: 10px;
     width: 100%;
     height: 70px;
-    text-align:center;
+    text-align: center;
 }
-.navigation .nav{
+
+.navigation .nav {
     width: 100%;
     height: 35px;
     line-height: 35px;
 
-    background: url("../images/img/top_1.gif")no-repeat;
+    background: url("../images/img/top_1.gif") no-repeat;
 }
-.navigation ul{
+
+.navigation ul {
     list-style: none;
 }
-.navigation ul li{
-   display: inline-block;
+
+.navigation ul li {
+    display: inline-block;
 }
-.navigation a{
+
+.navigation a {
     text-decoration: none;
     color: white;
 }
+
 .navigation a:hover {
     color: #fd985a;
 }
 
-.navigation a:active  {
+.navigation a:active {
     color: #fdf80d;
     text-decoration: #fdf80d;
 }
-.navigation .usernav{
+
+.navigation .usernav {
     width: 100%;
     height: 35px;
     background: url("../images/img/top_2.gif") repeat-x;
 }
-.shopping{
+
+.shopping {
     width: 310px;
     height: 35px;
-    background: url("../images/img/d3.jpg")no-repeat;
+    background: url("../images/img/d3.jpg") no-repeat;
 
 }
-.shopping .spanq0{
-   margin-left: 35px;
- }
-.shopping .spanq1{
+
+.shopping .spanq0 {
+    margin-left: 35px;
+}
+
+.shopping .spanq1 {
     margin-left: 20px;
 }
-.shopping .spanq2{
+
+.shopping .spanq2 {
     margin-left: 20px;
 }
-.usernav table{
+
+.usernav table {
     font-size: 13px;
     font-weight: normal;
 }
-.usernav table th{
+
+.usernav table th {
     font-size: 13px;
     font-weight: normal;
     padding: 0 7px;
 }
-.usernav select{
+
+.usernav select {
     width: 119px;
     height: 20px;
 }
-.usernav input{
+
+.usernav input {
     width: 265px;
     height: 17px;
 }
-.usernav button{
+
+.usernav button {
     background: none;
     border: 0px;
 }
-.usernav .bt{
-    background: url("../images/img/search_submit.jpg")no-repeat;
+
+.usernav .bt {
+    background: url("../images/img/search_submit.jpg") no-repeat;
     border: 0px;
     width: 45px;
     height: 19px;
 }
-/*首页内容部分*/
-.centenleft{
 
+/*首页内容部分*/
+.centenleft {
+    width: 200px;
 }
-.userinfo{
+
+.userinfo {
     width: 200px;
     height: 116px;
-    background: url("../images/img/la_4.gif")no-repeat;
+    background: url("../images/img/la_4.gif") no-repeat;
     position: relative;
 }
-.userinfo .sn{
+
+.userinfo .sn {
     text-align: center;
     color: white;
     padding-top: 3px;
 }
-h3{
+
+h3 {
     margin: 0 0;
     padding: 0 0;
     font-size: 16px;
     color: white;
     text-align: center;
 }
-.userinfo .ul{
+
+.userinfo .ul {
     margin-top: 10px;
 
 }
-.userinfo ul{
+
+.userinfo ul {
     padding-top: 10px;
     list-style: none;
 }
-.userinfo ul a{
-   text-decoration: none;
+
+.userinfo ul a {
+    text-decoration: none;
     color: black;
     font-size: 14px;
 }
-.userinfo ul li{
-   margin-left: 27px;
+
+.userinfo ul li {
+    margin-left: 27px;
 }
+
 /*商品分类*/
-.shangpingfenlei{
+.shangpingfenlei {
     margin-top: 7px;
     width: 200px;
     height: 116px;
-    background: url("../images/img/la_4.gif")no-repeat;
+    background: url("../images/img/la_4.gif") no-repeat;
 }
-h6{
+
+h6 {
     font-size: 15px;
     color: #d6290b;
     font-weight: bolder;
     padding-left: 10px;
 }
 
-.shangpingfenlei ul{
+.shangpingfenlei ul {
     padding-top: 10px;
     list-style: none;
 }
-.shangpingfenlei ul li{
+
+.shangpingfenlei ul li {
     text-indent: 36px;
 
 }
-.shangpingfenlei ul li a{
-   text-decoration: none;
+
+.shangpingfenlei ul li a {
+    text-decoration: none;
     color: #666666;
     font-size: 15px;
 }
-.shangpingfenlei ul span a{
+
+.shangpingfenlei ul span a {
     text-decoration: none;
     color: #666666;
     font-size: 15px;
     padding-left: 115px;
+}
+
+/*内容中间边部分*/
+.centenzhongjian {
+    margin-top: 10px;
+    width: 580px;
+}
+
+.ddd img {
+    width: 580px;
+    height: 140px;
+}
+
+.recommend {
+    width: 580px;
+    height: 30px;
+    background: url("../images/img/ca_1.gif");
+}
+
+.reco {
+    text-align: center;
+    color: white;
+    margin: 5px 8px;
+}
+
+.recomore {
+    margin: 5px 15px;
+}
+.box{
+    width: 570px ;
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    display: inline-block;
+    padding: 0 5px;
+    text-align: center;
+    color: #4a0000;
+}
+.box ul li .money{
+   color: #d6290b;
+    font-size: 22px;
+}
+.weiz{
+    padding-left: 15px;
+}
+
+/*内容左边部分*/
+.centenrright {
+    width: 200px;
+    height: 116px;
 }
 
 .foot {
