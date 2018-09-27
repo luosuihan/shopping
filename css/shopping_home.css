@@ -312,23 +312,70 @@ h6 {
 .recomore {
     margin: 5px 15px;
 }
-.box{
-    width: 570px ;
+
+.box {
+    width: 570px;
 }
-.box ul{
+
+.box ul {
     list-style: none;
 }
-.box ul li{
+
+.box ul li {
     display: inline-block;
     padding: 0 5px;
     text-align: center;
     color: #4a0000;
+    font-size: 14px;
 }
-.box ul li .money{
-   color: #d6290b;
+
+.box ul li .money {
+    color: #d6290b;
     font-size: 22px;
 }
-.weiz{
+
+.box2 {
+    width: 570px;
+}
+
+box2 ul {
+    list-style: none;
+}
+
+.box2 ul li {
+    display: inline-block;
+    padding: 0 5px;
+    text-align: center;
+    color: #4a0000;
+    font-size: 14px;
+}
+
+.box2 ul li .money {
+    color: #d6290b;
+    font-size: 22px;
+}
+
+.paies {
+    background: #f5f5f5;
+    width: 580px;
+    height: 60px;
+}
+.paies .pay{
+    padding: 3px 0 0 8px;
+}
+.paypic{
+    margin: 0 9px;
+}
+.paypic a img{
+    padding: 0 3px;
+}
+/*广告*/
+.ad {
+    margin-top: 3px;
+    margin-inside: 3px;
+}
+
+.weiz {
     padding-left: 15px;
 }
 
