@@ -382,9 +382,52 @@ box2 ul {
 /*内容左边部分*/
 .centenrright {
     width: 200px;
-    height: 116px;
+}
+.centenrright .websitenews{
+    width: 195px;
+    background: url("../images/img/la_4.gif")no-repeat;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.centenrright .websitenews ul{
+    list-style: none;
+}
+.centenrright .websitenews .ul{
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
+.centenrright .websitenews ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.centenrright .customer{
+    width: 195px;
+    background: url("../images/img/la_4.gif")no-repeat;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.centenrright .customer ul{
+   list-style: none;
+}
+.centenrright .customer ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+.centenrright .customer ul li span{
+    padding: 10px;
+}
+.centenrright .classifyshopping{
+    width: 195px;
+    background: url("../images/img/la_4.gif")no-repeat;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.centenrright .classifyshopping ul li table tr th{
+    padding: 10px;
+}
 .foot {
     height: 130px;
     width: 100%;
